@@ -1,0 +1,27 @@
+{
+  "id": "8a17bf30-edda-44b2-8852-5c28814dd97d",
+  "name": "BE-terna Customer Statistics Customizations",
+  "publisher": "Ugljesa Ciric",
+  "version": "19.2.0.2022011401",
+  "brief": "Ugljesa's Customer Statistics Customizations",
+  "description": "Ugljesa's App for Customer Statistics Customizations",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 64850,
+      "to": 64899
+    }
+  ],
+  "features": ["TranslationFile"],
+  "contextSensitiveHelpUrl": "https://dev.azure.com/UgljesaCiric/_git/Turisti%C4%8Dka%20agencija",
+  "resourceExposurePolicy": { "allowDebugging": true, "allowDownloadingSource": false, "includeSourceInSymbolFile": true },
+  "runtime": "8.0"
+}

@@ -1,0 +1,16 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+    ],
+    "al.assemblyProbingPaths": [], 
+    "CRS.ObjectNamePrefix": "BET CS ",
+    "CRS.RemoveUnderscoreFromFilename": true,
+    "CRS.RemovePrefixFromFilename": false,
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.OnSaveAlFileAction": "Reorganize",
+    "CRS.RenameWithGit": false,
+    "CRS.AlSubFolderName": "src"
+}
