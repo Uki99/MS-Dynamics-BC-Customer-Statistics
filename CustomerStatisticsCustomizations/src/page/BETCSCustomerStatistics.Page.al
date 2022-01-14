@@ -45,84 +45,98 @@ page 64850 "BET CS Customer Statistics"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[1] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[1];
+                    BlankZero = true;
                 }
                 field("Period 2"; SalesAmountActualByMonth[2])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[2] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[2];
+                    BlankZero = true;
                 }
                 field("Period 3"; SalesAmountActualByMonth[3])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[3] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[3];
+                    BlankZero = true;
                 }
                 field("Period 4"; SalesAmountActualByMonth[4])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[4] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[4];
+                    BlankZero = true;
                 }
                 field("Period 5"; SalesAmountActualByMonth[5])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[5] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[5];
+                    BlankZero = true;
                 }
                 field("Period 6"; SalesAmountActualByMonth[6])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[6] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[6];
+                    BlankZero = true;
                 }
                 field("Period 7"; SalesAmountActualByMonth[7])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[7] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[7];
+                    BlankZero = true;
                 }
                 field("Period 8"; SalesAmountActualByMonth[8])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[8] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[8];
+                    BlankZero = true;
                 }
                 field("Period 9"; SalesAmountActualByMonth[9])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[9] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[9];
+                    BlankZero = true;
                 }
                 field("Period 10"; SalesAmountActualByMonth[10])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[10] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[10];
+                    BlankZero = true;
                 }
                 field("Period 11"; SalesAmountActualByMonth[11])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[11] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[11];
+                    BlankZero = true;
                 }
                 field("Period 12"; SalesAmountActualByMonth[12])
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualByMonth[12] field.';
                     CaptionClass = '1,5,,' + PeriodCaptions[12];
+                    BlankZero = true;
                 }
                 field("Sales Amount Actual Sum"; SalesAmountActualSum)
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SalesAmountActualSum field.';
                     Caption = 'Sales Amount Actual Sum';
+                    BlankZero = true;
                 }
                 field("Cost Amount Actual Sum"; CostAmountActualSum)
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the CostAmountActualSum field.';
                     Caption = 'Cost Amount Actual Sum';
+                    BlankZero = true;
                 }
             }
         }
