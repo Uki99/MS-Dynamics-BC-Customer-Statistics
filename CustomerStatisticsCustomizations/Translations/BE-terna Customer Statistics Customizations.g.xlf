@@ -2,7 +2,123 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="en-US" original="BE-terna Customer Statistics Customizations">
     <body>
-      <group id="body" />
+      <group id="body">
+        <trans-unit id="Page 2605597582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Statistics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Method 2818552298 - NamedType 2808898738" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Amount %1 %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 is name of the month, %2 is year of that month</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Method GenerateCaptions - NamedType CaptionTok</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 3168444338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Address field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 2178647059 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Balance (LCY) field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Balance (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 714791889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the City field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control City - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 3703850286 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CostAmountActualSum field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Cost Amount Actual Sum - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 3703850286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Amount Actual Sum</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Cost Amount Actual Sum - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 1058114360 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[1] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 2793820336 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[10] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 2156123719 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[11] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 4069213570 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[12] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 1695810977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[2] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 2333507594 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[3] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 2971204211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[4] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 3608900828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[5] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 4246597445 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[6] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 589326766 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[7] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 1227023383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[8] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 1864720000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualByMonth[9] field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Period 9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 3755786955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SalesAmountActualSum field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Sales Amount Actual Sum - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 3755786955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Amount Actual Sum</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control Sales Amount Actual Sum - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2605597582 - Control 617267791 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VAT Registration No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CS Customer Statistics - Control VAT Registration No. - Property ToolTip</note>
+        </trans-unit>
+      </group>
     </body>
   </file>
 </xliff>
