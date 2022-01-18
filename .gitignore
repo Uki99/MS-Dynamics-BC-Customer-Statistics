@@ -2,6 +2,6 @@
 **/.alpackages
 **/.altemplates
 !**/.vscode/settings.json
-**/Translations/BeTerna Gradnja MNE Customizations.g.xlf
+!**/.vscode/launch.json
 *.app
 *.log

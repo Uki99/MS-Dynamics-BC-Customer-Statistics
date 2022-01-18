@@ -1,15 +1,15 @@
 {
   "id": "8a17bf30-edda-44b2-8852-5c28814dd97d",
-  "name": "BE-terna Customer Statistics Customizations",
-  "publisher": "Ugljesa Ciric",
+  "name": "Customer Statistics Customizations",
+  "publisher": "Uglješa Ćirić",
   "version": "19.2.0.2022011401",
-  "brief": "Ugljesa's Customer Statistics Customizations",
-  "description": "Ugljesa's App for Customer Statistics Customizations",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Uglješa's Customer Statistics Customizations",
+  "description": "Uglješa's App for Customer Statistics Customizations",
+  "privacyStatement": "https://dev.azure.com/UgljesaCiric/Customer%20Statistics",
+  "EULA": "https://dev.azure.com/UgljesaCiric/Customer%20Statistics",
+  "help": "https://dev.azure.com/UgljesaCiric/Customer%20Statistics",
+  "url": "https://dev.azure.com/UgljesaCiric/Customer%20Statistics",
+  "logo": "./logo/BET.216x216.png",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
@@ -21,7 +21,7 @@
     }
   ],
   "features": ["TranslationFile"],
-  "contextSensitiveHelpUrl": "https://dev.azure.com/UgljesaCiric/_git/Turisti%C4%8Dka%20agencija",
+  "contextSensitiveHelpUrl": "https://dev.azure.com/UgljesaCiric/Customer%20Statistics",
   "resourceExposurePolicy": { "allowDebugging": true, "allowDownloadingSource": false, "includeSourceInSymbolFile": true },
   "runtime": "8.0"
 }

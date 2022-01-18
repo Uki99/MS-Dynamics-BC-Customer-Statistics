@@ -8,6 +8,7 @@ page 64850 "BET CS Customer Statistics"
     UsageCategory = Lists;
     ApplicationArea = All;
     SourceTable = Customer;
+    Editable = false;
 
     layout
     {
@@ -155,8 +156,6 @@ page 64850 "BET CS Customer Statistics"
 
     trigger OnAfterGetRecord()
     begin
-        SalesAmountActualSum := 0;
-        CostAmountActualSum := 0;
         GenerateCustomerData();
     end;
 
@@ -166,10 +165,7 @@ page 64850 "BET CS Customer Statistics"
         CaptionIndex: Integer;
         CaptionTok: Label 'Sales Amount %1 %2', Comment = '%1 is name of the month, %2 is year of that month';
     begin
-        Date.SetRange("Period Type", Date."Period Type"::Month);
-        Date.SetFilter("Period Start", 't+11m..t+11m+12m');
-        Date.Ascending(false);
-        Date.FindSet();
+        GenerateDates(Date);
         CaptionIndex := 1;
 
         repeat
@@ -184,10 +180,8 @@ page 64850 "BET CS Customer Statistics"
         Date: Record Date;
         Index: Integer;
     begin
-        Date.SetRange("Period Type", Date."Period Type"::Month);
-        Date.SetFilter("Period Start", 't+11m..t+11m+12m');
-        Date.Ascending(false);
-        Date.FindSet();
+        ResetPerCustomerSums();
+        GenerateDates(Date);
         Index := 1;
 
         repeat
@@ -204,5 +198,19 @@ page 64850 "BET CS Customer Statistics"
 
             Index += 1;
         until Date.Next() = 0;
+    end;
+
+    local procedure ResetPerCustomerSums()
+    begin
+        SalesAmountActualSum := 0;
+        CostAmountActualSum := 0;
+    end;
+
+    local procedure GenerateDates(var Date: Record Date)
+    begin
+        Date.SetRange("Period Type", Date."Period Type"::Month);
+        Date.SetFilter("Period Start", '%1..%2', CalcDate('<CM-12M>', WorkDate()), WorkDate());
+        Date.Ascending(false);
+        Date.FindSet();
     end;
 }

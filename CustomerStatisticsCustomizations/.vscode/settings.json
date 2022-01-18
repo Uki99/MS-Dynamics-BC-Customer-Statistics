@@ -3,7 +3,9 @@
     "al.codeAnalyzers": [
         "${CodeCop}",
         "${UICop}",
+        "${AppSourceCop}"
     ],
+    "al.ruleSetPath": "ruleset.json",
     "al.assemblyProbingPaths": [], 
     "CRS.ObjectNamePrefix": "BET CS ",
     "CRS.RemoveUnderscoreFromFilename": true,

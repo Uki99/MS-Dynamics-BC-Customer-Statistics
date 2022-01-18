@@ -1,0 +1,41 @@
+{
+    "name": "Uglješa - Travel Agency ruleset",
+    "description": "These rules must be respected by all the AL code wrtten",
+    "rules":[
+        {
+            "id": "AS0084",
+            "action": "Hidden",
+            "justification": "On prem ID Range."
+        },
+        {
+            "id": "AS0054",
+            "action": "Hidden",
+            "justification": "Mandatory Prefix/Sufix properties not needed for on-prem."
+        },
+        {
+            "id": "AA0215",
+            "action": "Hidden",
+            "justification": "Naming convention will ignore prefix in file name."
+        },
+        {
+            "id": "AA0072",
+            "action": "Hidden",
+            "justification": "Naming convention will ignore suffix in file name."
+        },
+        {
+            "id": "AA0214",
+            "action": "Hidden",
+            "justification": "Change the record before saving it in the database - not helping."
+        },
+        {
+            "id": "AS0053",
+            "action": "Hidden",
+            "justification": "Project is OnPrem."
+        },
+        {
+            "id": "AS0013",
+            "action": "Hidden",
+            "justification": "Strange behavior regarding field IDs on 50K"
+        }          
+    ]
+}

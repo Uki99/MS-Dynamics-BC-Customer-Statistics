@@ -1,3 +1,5 @@
+# Introduction and Explanation
+This is an internal practice task i got on topic of Customer Statistics. Bellow is the task requirements as recieved in e-mail from my mentor.
 # Uvod
 
 Zadatak je pisan za NAV, ali napravi kompatibilno i za NAV i BC.
